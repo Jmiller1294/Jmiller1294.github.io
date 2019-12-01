@@ -1,0 +1,9 @@
+---
+layout: post
+title:      "A New Life"
+date:       2019-12-01 19:10:24 +0000
+permalink:  a_new_life
+---
+
+
+I decided to get into software developement because it is something Ive been curious abou,"Like hey maybe i should try this".It is something that i have always been interested in, but I was afraid of trying .It seemed very foreign to me the idea of building websites and apllications.I know that coding is the future ,and while other jobs are being taken away by automation,people who know how to code will always be in demand.The power that coding gives you is unlike many other skills.You can build something that starts out small and turns into a multi billion dollar company like facebook or google.That freedom to create you own destiny based on your desire to learn and innovate is what drew me to software devlopment. 
