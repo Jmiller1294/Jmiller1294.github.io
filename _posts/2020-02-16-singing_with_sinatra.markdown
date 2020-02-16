@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Singing With Sinatra"
-date:       2020-02-16 14:32:24 +0000
+date:       2020-02-16 09:32:25 -0500
 permalink:  singing_with_sinatra
 ---
 
