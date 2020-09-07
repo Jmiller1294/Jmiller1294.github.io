@@ -5,7 +5,7 @@ date:       2020-09-06 19:58:09 -0400
 permalink:  choosing_stocks_with_javascript
 ---
 
-##JavaScript is becoming my favorite language
+## JavaScript is becoming my favorite language
 
 Everything seems like it is finally coming together. Going from Ruby to Javascript was a challenge because JavaScript is a lot more flexible, and allows you to do more with the language. One of the most challenging topics to master was the concept of asynchronous code. Asynchronous code means that multiple things can be executed at once instead of top to bottom execution. This was the first project where things came to me easier than the previous projects. Seeing a change appear on the DOM was a very satisfying feeling. All of the moving parts made me a little nervous, but "Thank God for console.log()". JavaScript's flexibility can also be a weakness and finding an error takes very careful reviewing.  Here are some of the key principles of JavaScript that I learned.
 
@@ -15,12 +15,14 @@ Events are what allow the user to interact with the DOM. With event listeners yo
 
 
  ```
+ 
  searchItem.addEventListener('keydown', function(event){
         if(event.key == 'Backspace') {
             searchItem.value =""
             searchContainer.innerHTML = ""
         }
     })
+		
 	```
 
 
@@ -30,11 +32,13 @@ Being able to update the DOM and make changes appear, really helps me to grasp w
 
 
 ```
+
 const p = document.createElement('p')
 p.innerText = `Ticker: ${this.ticker}
                         Company: ${this.company}
                          Current Price: $${parseFloat(this.current_price).toFixed(2)}`
  p.style.color = "white"
+ 
  ```
 
 
@@ -44,6 +48,7 @@ Fetch is an easy way to retrieve data from a server. I was able to read, update,
 
 
 ```
+
 fetch('http://localhost:3000/stocks', {
      method: 'POST',
      headers: {
@@ -53,6 +58,7 @@ fetch('http://localhost:3000/stocks', {
  })
  .then(response => response.json())
  .then(stock => renderStock(stock))
+ 
  ```
  
  
