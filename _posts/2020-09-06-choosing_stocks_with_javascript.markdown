@@ -15,14 +15,12 @@ Events are what allow the user to interact with the DOM. With event listeners yo
 
 
  ```
- 
  searchItem.addEventListener('keydown', function(event){
         if(event.key == 'Backspace') {
             searchItem.value =""
             searchContainer.innerHTML = ""
         }
     })
-		
 	```
 
 
@@ -31,14 +29,13 @@ Events are what allow the user to interact with the DOM. With event listeners yo
 Being able to update the DOM and make changes appear, really helps me to grasp what separates JavaScript from other languages such as Ruby. JavaScript is a dynamic language that allows you to make changes on the fly. This allowed me to work my way through each step and build my project piece by piece. Being able to use the console in the Chrome browser really helped me to visual the html that was being created and changed. Whenever I got stuck, I would try to make a change in a particular area of code and see how it affected the DOM.
 
 
-```
 
+```
 const p = document.createElement('p')
 p.innerText = `Ticker: ${this.ticker}
                         Company: ${this.company}
                          Current Price: $${parseFloat(this.current_price).toFixed(2)}`
- p.style.color = "white"
- 
+ p.style.color = "white" 
  ```
 
 
